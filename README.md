@@ -21,6 +21,6 @@ pub fn release_escrow(ctx: Context<ReleaseEscrow>, signature: [u8; 2420]) -> Res
     pqc_verify_mldsa(&signature, &ctx.accounts.message, pubkey)?;
     // Transfer logic follows...
 }
-
+```
 ## 📜 Research & Whitepaper
 This project serves as a live implementation of the Quantum-Resistant P2P Payment model, bridging traditional DevOps automation with PQC security standards.
